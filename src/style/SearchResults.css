@@ -1,0 +1,30 @@
+.searchResults {
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.poster {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    text-align: center;
+}
+
+.posterImage {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.posterTitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: #f9f9f9;
+    text-shadow: 2px 2px black;
+}
